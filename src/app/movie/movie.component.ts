@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieComponent implements OnInit {
 
+  movies: Array<string> = ["Baran", "Emre", "Bulak"];
+
   constructor() { }
 
   ngOnInit(): void {
